@@ -1,0 +1,2 @@
+data_train: './dataset/004nlink.train'
+data_test:  './dataset/004nlink.test'

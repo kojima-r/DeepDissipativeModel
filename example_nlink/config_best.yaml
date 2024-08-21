@@ -1,0 +1,53 @@
+method: ddm
+state_dim: 2
+obs_dim: 1
+in_dim: 1
+epoch: 20
+pre_fit_epoch: -1
+patience: 5
+batch_size: 36
+activation: sigmoid
+optimizer: rmsprop
+lr: 0.0006413143690439902
+v_type: single
+scale_f: 0.047963486978651146
+scale_g: 1.0
+scale_h: 1.0
+scale_j: 1.0
+train_valid_ratio: 0.2
+data_train: ./dataset/001linear.train
+data_test: ./dataset/001linear.test
+load_model: true
+load_model_path: ''
+result_path: study/trial0084
+gamma: 0.01
+alpha_f: 0.001
+alpha_g: 0.001
+diag_g: true
+diag_j: true
+detach_f: false
+detach_g: false
+detach_h: false
+detach_j: false
+detach_diff_f: false
+detach_diff_g: false
+without_j: false
+weight_decay: 5.597412135082412e-09
+hidden_layer_f:
+- 28
+- 9
+- 20
+hidden_layer_g:
+- 61
+- 52
+hidden_layer_h:
+- 19
+- 13
+- 62
+hidden_layer_j:
+- 32
+hidden_layer_L:
+- 32
+residual_f: true
+residual_coeff_f: -1.0
+profile: false

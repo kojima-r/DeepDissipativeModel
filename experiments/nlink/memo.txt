@@ -1,0 +1,5 @@
+qsub -g gcc50492 job3.sh
+qrsh -g gcc50492 -l rt_F=1 -l h_rt=0:10:00
+
+qsub -ar 29560 -g gcg51397 job.sh
+qrsh -ar 29560 -g gcg51397 -l rt_AF=1 -l h_rt=0:10:00

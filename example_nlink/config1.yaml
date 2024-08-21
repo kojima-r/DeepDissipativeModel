@@ -1,0 +1,3 @@
+init_model: 'study/trial0060/model/best.checkpoint'
+result_path: 'result1'
+#fix_f: true
