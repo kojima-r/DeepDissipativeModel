@@ -94,4 +94,15 @@ The dissipativity parameter Q, R, S can also be set in the config.
 # Experiments
 The specific commands used in the experiments have been made into shell scripts and placed in each directory.
 
-
+# Citation
+```
+@inproceedings{okamoto2025learning,
+  title={Learning deep dissipative dynamics},
+  author={Okamoto, Yuji and Kojima, Ryosuke},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={18},
+  pages={19749--19757},
+  year={2025}
+}
+```
