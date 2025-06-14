@@ -1,5 +1,11 @@
 # DeepDissipativeModel
 
+[![arXiv](https://img.shields.io/badge/arXiv-2408.11479-b31b1b.svg)](https://arxiv.org/abs/2408.11479)
+
+[AAAI paper](https://ojs.aaai.org/index.php/AAAI/article/view/34175/36330)
+
+This project is an implementation of our method in "Learning Deep Dissipative Dynamics", which can strictly guarantee the "dissipativity" of a dynamical system represented by a state-space neural ODE learned from given time series data.
+
 ## Installation
 For Pytorch, we recommend installing the appropriate version from the official website `https://pytorch.org/get-started/pytorch-2.0/`　according to your GPU and CUDA environment.
 
